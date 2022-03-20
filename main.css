@@ -5,8 +5,9 @@
   
   body {
     margin: 2px;
-    font-family: 'Open Sans', 'sans-serif';
-    background-color: rgb(240, 233, 220);
+    font-family: "Roboto", "sans-serif";
+    background-color: #ffffff;
+    /* background-color: rgb(240, 233, 220); */
   }
   
   h1, p {
@@ -19,7 +20,7 @@
     justify-content: space-evenly;
     align-items: center;
     float: left;
-    background-color:rgb(186, 131, 135);
+    background-color: #c0b3c2;
     width: max-content;
   }
 
@@ -28,7 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(240, 233, 220);
+    color: black;
   }
 
   .foto {
@@ -40,6 +41,8 @@
   .titulo {
     font-size: 1.5rem;
   }
+
+  /* MAIN */
 
   .portada {
     display: flex;
@@ -54,7 +57,7 @@
 
   .tituloPortada {
     font-size: 50px;
-    color: rgb(240, 233, 220);
+    color: black;
     -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
@@ -104,6 +107,19 @@
   }
 }
 
+.titulos {
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.reglaHorizontal {
+  width: 50%;
+  background-color: #8c0032;
+  margin-left: 50%;
+  margin-top: 4rem;
+}
   
   .content {
     float: right;
@@ -141,10 +157,14 @@ box-shadow:  -20px 20px 60px #bebebe,
   }
   
   .footer {
-    background-color:rgb(186, 131, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0b3c2;
     grid-column: 1 / -1;
     /* necesario para el diseño flotante */
     clear: both;
+    height: 100px;
   }
   
   
