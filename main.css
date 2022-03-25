@@ -16,7 +16,7 @@
     align-items: center;
     float: left;
     background-color: #c0b3c2;
-    width: max-content;
+    width:auto;
   }
 
   .fotoTitulo {
@@ -88,8 +88,8 @@
   }
 
   .icono {
-    
     margin: 1.5rem;
+    color: #8c0032;
   }
 
   /* MAIN */
@@ -102,8 +102,8 @@
   .portada {
     display: flex;
     flex-direction: column;
-    /* background-image: url(https://res.cloudinary.com/gabycoderhouse/image/upload/v1647645683/portafolio/mountains-g467ed672d_1920_gjuwbt.jpg); */
-    background-image: url(http://bit.ly/2gPLxZ4);
+    background-image: url(./images/portada2.jpg);
+    /* background-image: url(http://bit.ly/2gPLxZ4);*/
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -111,14 +111,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: whitesmoke;
+    color: #ffffff;
   }
 
   .tituloPortada {
     display: flex;
     font-size: 3rem;
-    color: whitesmoke;
-    margin-top: 1rem;
+    color: #ffffff;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
@@ -129,13 +129,17 @@
 
 .tituloFrase {
   width: 50%;
-  height: 10rem;
-  
+  height: 16rem;
+  background-color: rgba(128, 128, 128, 0.555);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
 }
 
 .frase {
-  color: whitesmoke;
+  color: #ffffff;
   font-size: 1.2rem;
+  padding: 1rem;
 } 
 
 /* SECCIONES */
@@ -154,14 +158,20 @@
   margin-top: 4rem;
 }
 
-  .cards {
+.parrafo {
+  text-align:center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.cards {
     display: grid;
     height: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
   }
 
-  .card {
+.card {
     display:flex;
     flex-direction: column;
     padding: 1rem;
@@ -170,9 +180,25 @@
 background: #e0e0e0;
 box-shadow:  -20px 20px 60px #bebebe,
              20px -20px 60px #ffffff;
-  }
+}
+
+.habilidades {
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.habilTecnicas {
+  margin: 1.5rem;
+  color: #8c0032;
+  size: 3rem;
+}
   
-  .wrapper {
+.wrapper {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -180,7 +206,7 @@ box-shadow:  -20px 20px 60px #bebebe,
   }
   
 
-  .footer {
+.footer {
     display: grid;
     justify-content: center;
     align-items: center;
