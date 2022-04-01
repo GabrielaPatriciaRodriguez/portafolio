@@ -56,6 +56,7 @@
 
   .profesion {
     display: flex;
+    position: fixed;
     font-size: 1.4rem;
     color: black;
     margin-top: 1rem;
@@ -108,7 +109,7 @@
   .portada {
     display: flex;
     flex-direction: column;
-    background-image: url(./images/portada2.jpg);
+    background-image: url(https://res.cloudinary.com/gabycoderhouse/image/upload/v1648846781/portafolio/portada2_ojgqat.jpg);
     /* background-image: url(http://bit.ly/2gPLxZ4);*/
     object-fit: cover;
     background-repeat: no-repeat;
